@@ -176,6 +176,7 @@ class LearnSpigotBot {
         StatisticCommand(guild, bot, datastore)
         GiveawayCommand(guild, bot, giveawayManager)
         PollCommand(bot, pollManager)
+        EmbedCommand(guild, bot)
     }
 
     private fun registerListeners() {
